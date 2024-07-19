@@ -1,0 +1,282 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: "space grotesk";
+    /* background-color: palevioletred; */
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    /* background-color: azure; */
+}
+
+.navbar {
+    /* background-color: aqua; */
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+    /* justify-content: space-between; */
+}
+
+.navbar {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    line-height: 85px;
+    /* background-color: brown; */
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+    /* background-color: #B9FF66; */
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    background-attachment: fixed;
+}
+
+
+ul li a:hover {
+    cursor: pointer;
+}
+
+.btn btn-outline-dark {
+    background-color: aquamarine;
+}
+
+.menu button {
+    width: 155px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    /* background-color: blueviolet; */
+}
+
+.kolom {
+    /* background-color: antiquewhite; */
+    margin-right: 30px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    text-wrap
+}
+
+.kolom h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.kolom p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.illustration {
+    /* background-color: rgb(167, 167, 101); */
+}
+
+a.tbl-hitam {
+    background: #B9FF66;
+    border-radius: 14px;
+    color: #FFFF;
+}
+
+.company {
+    display: flex;
+    width: 100%;
+    margin-inline: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px
+}
+
+.row {
+    margin-bottom: 80px;
+}
+
+.heading {
+    background-color: #B9FF66;
+    background-size: auto;
+    width: 138px;
+    height: 51px;
+    border-radius: 7px;
+    text-align: center;
+    padding: auto;
+}
+
+.subheading {
+    display: flex;
+    margin-left: 50px;
+    /* margin-top: 140px; */
+    font-size: 18px;
+    font-weight: 400px;
+    width: 600px;
+}
+
+.card{
+    justify-content: space-between;
+    margin-bottom: -40px;
+    display: flex;
+    margin-top: 50px;
+    width: fixed 600px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.col1 .card{
+    background-color: #F3F3F3;
+}
+.col1 .card-title{
+    background-color: #B9FF66;
+}
+.col2 .card{
+    background-color: #B9FF66;
+}
+.col2 .card-title{
+    background-color: #F3F3F3;
+}
+.col3 .card{
+    background-color: #191A23;
+}
+.col3 .card-title{
+    background-color:#F3F3F3;
+}
+.col4 .card{
+    background-color: #F3F3F3;
+}
+.col4 .card-title{
+    background-color: #B9FF66;
+    text-align: left;
+}
+.col5 .card{
+    background-color: #B9FF66;
+}
+.col5 .card-title{
+    background-color: #F3F3F3;
+}
+.col6 .card{
+    background-color: #191A23;
+}
+.col6 .card-title{
+    background-color: #B9FF66;
+}
+
+.card-img-top{
+    width: 210px;
+    height: 147.62px;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.card-body{
+    margin: 0%;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    width: 50px;
+    margin-bottom: -50px;
+}
+.card-body .card-title1 {
+    font-family: 'Space Grotesk';
+    background-color: #B9FF66;
+    margin-top: 50px;
+    width: 221px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 30px; 
+    font-weight: bold; 
+    line-height: 38.28px; /* Adjust line height to match the spacing between lines */
+    white-space: pre; /* Preserve spaces and line breaks as in the image */
+}
+.card-body .card-title2 {
+    font-family: 'Space Grotesk';
+    background-color: #B9FF66;
+    width: 183px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px; 
+    font-weight: bold; 
+    margin-top: -3px;
+    line-height: 38.28px; /* Adjust line height to match the spacing between lines */
+}
+.card-body .card-title3 {
+    font-family: 'Space Grotesk';
+    background-color: #F3F3F3;
+    margin-top: 50px;
+    width: 221px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 30px; 
+    font-weight: bold; 
+    line-height: 38.28px; /* Adjust line height to match the spacing between lines */
+    white-space: pre; /* Preserve spaces and line breaks as in the image */
+}
+.card-body .card-title4 {
+    font-family: 'Space Grotesk';
+    background-color: #F3F3F3;
+    width: 183px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px; 
+    font-weight: bold; 
+    margin-top: -2px;
+    line-height: 38.28px; /* Adjust line height to match the spacing between lines */
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.card-link img {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.card-link p{
+    margin-top: 10px;
+    color: #fff;
+    margin-left: 5px;
+}
